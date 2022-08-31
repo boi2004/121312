@@ -1,0 +1,30 @@
+:root {
+    --white-color:#fff;
+    --black-color:#000;
+    --test-color:#333;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;  
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+ /*suy ra 1 rem =10px khi bằng 62,5*/
+ .grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+ }
+ .grid_full-with{
+    width:100%
+ }
+ .grid_row {
+    display: flex;
+    flex-wrap: wrap;    
+ }
+ /* flex wrap tự động xuống dòng khi trang thu nhỏ*/
+ 
